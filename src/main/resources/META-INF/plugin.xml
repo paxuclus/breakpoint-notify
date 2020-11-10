@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>wtf.lars.breakpoint-notify</id>
+    <name>Breakpoint Notify</name>
+    <vendor email="jetbrains@lars.wtf" url="https://lars.wtf">Lars Lauger</vendor>
+
+    <description><![CDATA[
+    Displays a notification if a breakpoint is reached in a project window
+    that is not currently focused.
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.xdebugger</depends>
+
+    <projectListeners>
+        <listener class="wtf.lars.breakpointnotify.listener.DebuggerListener"
+                  topic="com.intellij.xdebugger.XDebuggerManagerListener" />
+    </projectListeners>
+</idea-plugin>
