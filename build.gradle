@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'lars.wtf'
-version '1.0'
+version '1.1'
 
 repositories {
     mavenCentral()
@@ -17,12 +17,13 @@ dependencies {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     type 'IU'
-    version '2020.2'
+    version '2020.3'
 
-    plugins = ['com.jetbrains.php:202.6397.115']
+    plugins = ['com.jetbrains.php:203.5981.175']
 }
 patchPluginXml {
     changeNotes """
+# 1.1 Update for intelliJ 2020.3
 # 1.0 Initial Release
 """
 }
