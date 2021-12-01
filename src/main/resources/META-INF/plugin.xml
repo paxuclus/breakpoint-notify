@@ -15,6 +15,10 @@
 
     <projectListeners>
         <listener class="wtf.lars.breakpointnotify.listener.DebuggerListener"
-                  topic="com.intellij.xdebugger.XDebuggerManagerListener" />
+                  topic="com.intellij.xdebugger.XDebuggerManagerListener"/>
     </projectListeners>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="Breakpoint Notify" displayType="BALLOON"/>
+    </extensions>
 </idea-plugin>
