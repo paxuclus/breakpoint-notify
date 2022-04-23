@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.5.1]
+
+### Removed
+
+- Compatibility with intelliJ versions below 203.*
+
 ## [1.5.0]
 
 ### Added
