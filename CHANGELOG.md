@@ -1,5 +1,7 @@
 # Breakpoint Notify Changelog
 
+## [Unreleased]
+
 ## [1.5.0]
 
 ### Added
