@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.5.2]
+
+### Changed
+
+- Change vendor url
+
 ## [1.5.1]
 
 ### Removed
