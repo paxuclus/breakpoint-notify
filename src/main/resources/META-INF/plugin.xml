@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>wtf.lars.breakpoint-notify</id>
     <name>Breakpoint Notify</name>
-    <vendor email="jetbrains@lars.wtf" url="https://lars.wtf">Lars Lauger</vendor>
+    <vendor email="jetbrains@lars.wtf" url="https://github.com/nlx-lars">Lars Lauger</vendor>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.xdebugger</depends>
