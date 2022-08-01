@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.6.0]
+
+### Added
+
+- Support for intelliJ 2022.2
+
 ## [1.5.2]
 
 ### Changed
