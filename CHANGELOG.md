@@ -1,3 +1,5 @@
+<!-- Keep a Changelog guide -> https://keepachangelog.com -->
+
 # Breakpoint Notify Changelog
 
 ## [Unreleased]
