@@ -4,6 +4,18 @@
 
 ## [Unreleased]
 
+## [1.8.0]
+
+### Added
+
+- Support for intelliJ 2023.1
+
+## [1.7.0]
+
+### Added
+
+- Support for intelliJ 2022.3
+
 ## [1.6.0]
 
 ### Added
